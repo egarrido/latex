@@ -1,0 +1,96 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{ragged2e}
+
+% personal data
+\name{Eric}{Garrido}
+\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{656 Grande rue}{14880 Hermanville}{France}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+33~(0)6~89~54~54~19}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{dr.eric.garrido@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Curriculum detailed description}{}
+\date{January 31, 2018}
+\opening{Dear Madam or Sir,}
+\closing{Yours faithfully,}
+\enclosure[Links]{\\1: https://tel.archives-ouvertes.fr/tel-00662649\\2: http://www-subatech.in2p3.fr/fr/recherche/nucleaire-et-sante/prisma/presentation\\3: http://www.cyclotron-nantes.fr/spip.php?rubrique85\\4: http://www.iphc.cnrs.fr/-ImaBio-.html\\5: http://latim.univ-brest.fr/\\6: http://www.clemson.edu/ces/takacs/medical.html\\7: http://www.lpc-caen.in2p3.fr/article371.html}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\justifying
+Having always been interested in technical and technological developments provided in the medical field, I obtained a \href{https://tel.archives-ouvertes.fr/tel-00662649}{\underline{\color{blue}{PhD}}}$^1$ in nuclear physics in 2011 at the University of Nantes, in the laboratory \href{http://www-subatech.in2p3.fr/fr/recherche/nucleaire-et-sante/prisma/presentation}{\underline{\color{blue}{Subatech}}}$^2$.
+My PhD work focused on production cross-section measurements of $^{47}$Sc and $^{67}$Cu, two $\beta^-$ isotopes of interest for the vectorized internal therapy.
+This work was the first physics experiment run on the cyclotron \href{http://www.cyclotron-nantes.fr/spip.php?rubrique85}{\underline{\color{blue}{A\textsc{rronax}}}}$^3$ of Saint-Herblain (France).
+To do this, I designed and attended the realization of the device, determined irradiation and measurement protocols and validated it all by means of Monte Carlo simulations (G\textsc{eant}$_4$).
+These simulations required that I reproduced realistically the device geometry and define the different physical processes covering our range of energy (up to 70 MeV).
+Subsequently and after realizing all $\gamma$-spectrometry measures on a HP-Ge detector, I was able to analyze and extract the evolution of cross-sections on our energy range for forty different reactions.
+
+Following this thesis, I joined the team \href{http://www.iphc.cnrs.fr/-ImaBio-.html}{\underline{\color{blue}{ImaBio}}}$^4$ of IPHC in Strasbourg (France) to participate in the development of proton tomography, which is of strong interest in the case of a coupled-use with hadron-therapy.
+I used and improved my knowledge to extract from the G\textsc{eant}$_4$ code the electromagnetic hadronic processes on an energy range up to 200 MeV/U.
+The aim was to develop a stand-alone simulation code making the most of the computational power of GPU architecture.
+I continued this work with the \href{http://latim.univ-brest.fr/}{\underline{\color{blue}{La\textsc{tim}}}}$^5$ team of Brest (France), where I improved my code by implementing the physics of electrons and positrons and allowing the integration of complex geometries (voxelization).
+\textit{De facto} this code makes it possible to monitor dosimetry in voxelized volumes commonly used in medical application (scan imaging).
+
+After that, I was assigned, always at the La\textsc{tim}, to the development of a modeled source of a L\textsc{inac} used in Brest.
+This required me to build some accelerator parts by using a 3D modeling software (Blender) and to implement them on G\textsc{eant}$_4$ simulations. 
+During my last year at Brest, I mostly worked in collaboration with a research group at the \href{http://www.clemson.edu/ces/takacs/medical.html}{\underline{\color{blue}{Clemson University}}}$^6$ (USA) to contribute to the developement of a new $\gamma-$treatment device, by building the complete G\textsc{eant}$_4$ simulation. 
+I joined this group after the end of my contract with the La\textsc{tim} as an exchange visitor to pursue and improve my work on this project and build other different tools used to efficiently perform all the tests required to define the best design for this new device.
+
+Since October 2016 I'm part of the M\textsc{ia} (Medical and industrial applications) group at the \href{http://www.lpc-caen.in2p3.fr/article371.html}{\underline{\color{blue}{L\textsc{pc}}}}$^7$ of Caen (France).
+I work on deployment of D\textsc{osion} III, a new dose tracking detector for particle accelerators, in physics centers that request it -- A\textsc{rronax}, C\textsc{yrcé} (Strasbourg) and C\textsc{po} (Orsay).
+I have to ensure its implementation and its proper functioning by performing the necessary calibration measurements and interact with researchers from these centers to meet their expectations and develop new techniques around this device.
+This work requires me to acquire instrumentation and electronic skills, both for use and development, and to be able to apply them alone.
+
+In the course of these nine years, I have developed an expertise on Monte Carlo simulations, more specifically on G\textsc{eant}$_4$, on a wide range of energy (up to 200 MeV/U).
+I also acquired important experimental skills in nuclear physics, especially on the suitable energy range for medical applications.
+I learned to use and develop some instrumental tools, and to perform complete analysis on a wide variety of results, both numerical and experimental. 
+This was made possible by showing scientific rigor and high autonomy which enabled me to easily adapt to different laboratories and teams.
+Also, I am able to supervise researches, as I have done previously with PhD students and I have teaching experience with the supervision of several practical work during my PhD thesis.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.

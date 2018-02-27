@@ -1,0 +1,23 @@
+\frametitle{...et la très haute intensité}
+$\rhd$ Définir la plage de perte de linéarité avant saturation\\
+$\rhd$ Vérifier la possibilité de travailler en non-linéarité
+\begin{itemize}
+\item pouvoir calibrer à ces intensités
+\item répétabilité du faisceau
+\end{itemize}
+\vspace{2ex}
+$\rhd$ Modifications matérielles de \dosion
+$\left. \text{\parbox{0.48\linewidth}{
+\begin{itemize}
+\item réduire la taille du gap
+\end{itemize}
+}} \right.$ $\rightarrow$ limite basse à \alert{1.6 mm}
+
+$\left. \text{\parbox{0.5\linewidth}{
+\begin{itemize}
+\item changer la nature du gaz
+\item changer sa densité
+\end{itemize}
+}} \right \}$ \alert{étanchéifier} \dosion
+
+$\blacktriangleright$ Implique un développement théorique et des \alert{tests expérimentaux}
