@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.11.9)  4 APR 2018 10:33
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.11.9)  10 APR 2018 09:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,67 +318,65 @@ LaTeX Info: Redefining \up on input line 42.
 Package frenchb.ldf Warning: Add \usepackage{fontspec} to the
 (frenchb.ldf)                preamble of your document, on input line 42.
 
-
-Overfull \hbox (9.1731pt too wide) in paragraph at lines 68--88
- [] 
- []
-
-Missing character: There is no ’ in font ecrm1095!
-File: SFB_396p.png Graphic file (type QTm)
-<use  "SFB_396p.png" >
-File: Imagep.png Graphic file (type QTm)
- <use  "Imagep.png" >
+File: Area_1_sat.png Graphic file (type QTm)
+<use  "Area_1_sat.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[1
+File: Area_1_1000.png Graphic file (type QTm)
+<use  "Area_1_1000.png" > [1
 
 ]
-File: SFB_396.png Graphic file (type QTm)
- <use  "SFB_396.png" > [2]
-File: Image.png Graphic file (type QTm)
- <use  "Image.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Charge_clean.png Graphic file (type QTm)
-<use  "Charge_clean.png" >
-File: Canvas_1.png Graphic file (type QTm)
- <use  "Canvas_1.png" >
+File: Charge.png Graphic file (type QTm)
+<use  "Charge.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+File: Area_1_1.png Graphic file (type QTm)
+<use  "Area_1_1.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Canvas_1pp.png Graphic file (type QTm)
-<use  "Canvas_1pp.png" >
+File: Atténuation.png Graphic file (type QTm)
+<use  "Atténuation.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Calibrationp.png Graphic file (type QTm)
-<use  "Calibrationp.png" > [3]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: Calibration.png Graphic file (type QTm)
-<use  "Calibration.png" > [4]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5] [6] [7] [8]
-Overfull \hbox (6.92467pt too wide) in paragraph at lines 243--260
- [] 
+[2]
+File: Ratio_1_2_nn.png Graphic file (type QTm)
+ <use  "Ratio_1_2_nn.png" >
+Underfull \hbox (badness 8038) in paragraph at lines 155--155
+[]\T1/cmr/m/sc/10.95 Figure \T1/cmr/m/n/10.95 6 : []\T1/cmr/m/n/9 Su-per-po-si-
+tions des va-leurs de charge ob-te-nues lors des ir-ra-dia-tions Do-
  []
 
-[9] (./Rapport.aux) ) 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
+File: Dosion_PM.png Graphic file (type QTm)
+ <use  "Dosion_PM.png" > [4]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Area_1_PM_6.png Graphic file (type QTm)
+<use  "Area_1_PM_6.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6] [7] [8] [9
+
+] (./Rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 3649 strings out of 493638
- 47181 string characters out of 6146796
- 114797 words of memory out of 5000000
- 7008 multiletter control sequences out of 15000+600000
- 12276 words of font info for 33 fonts, out of 8000000 for 9000
+ 3662 strings out of 493638
+ 47332 string characters out of 6146796
+ 113797 words of memory out of 5000000
+ 7017 multiletter control sequences out of 15000+600000
+ 14463 words of font info for 39 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 28i,7n,43p,741b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,7n,43p,817b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Rapport.pdf (9 pages).

@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.11.9)  4 APR 2018 10:33
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.11.9)  6 JUN 2018 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Rapport.tex
-(./Rapport.tex
+**Rapport_2.tex
+(./Rapport_2.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -289,96 +289,94 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (./Rapport.aux)
-\openout1 = `Rapport.aux'.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: xetex.def on input line 143.
+)
+(./Rapport_2.aux
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Warning: Label `fig:chambrevscolli' multiply defined.
+
+)
+\openout1 = `Rapport_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Info: Redefining \dots on input line 42.
-LaTeX Info: Redefining \up on input line 42.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Info: Redefining \dots on input line 43.
+LaTeX Info: Redefining \up on input line 43.
 
 
 Package frenchb.ldf Warning: Add \usepackage{fontspec} to the
-(frenchb.ldf)                preamble of your document, on input line 42.
-
-
-Overfull \hbox (9.1731pt too wide) in paragraph at lines 68--88
- [] 
- []
-
-Missing character: There is no ’ in font ecrm1095!
-File: SFB_396p.png Graphic file (type QTm)
-<use  "SFB_396p.png" >
-File: Imagep.png Graphic file (type QTm)
- <use  "Imagep.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+(frenchb.ldf)                preamble of your document, on input line 43.
 
 [1
 
-]
-File: SFB_396.png Graphic file (type QTm)
- <use  "SFB_396.png" > [2]
-File: Image.png Graphic file (type QTm)
- <use  "Image.png" >
+] [2]
+File: manip1_1.png Graphic file (type QTm)
+ <use  "manip1_1.png" >
+File: manip12_2.png Graphic file (type QTm)
+ <use  "manip12_2.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Charge_clean.png Graphic file (type QTm)
-<use  "Charge_clean.png" >
-File: Canvas_1.png Graphic file (type QTm)
- <use  "Canvas_1.png" >
+File: manip1_1_chambre.png Graphic file (type QTm)
+<use  "manip1_1_chambre.png" >
+File: manip12_2_chambre.png Graphic file (type QTm)
+ <use  "manip12_2_chambre.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+File: manip_largeur8-6_2.png Graphic file (type QTm)
+<use  "manip_largeur8-6_2.png" >
+File: manip_largeur8-6_2_chambre.png Graphic file (type QTm)
+ <use  "manip_largeur8-6_2_chambre.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Canvas_1pp.png Graphic file (type QTm)
-<use  "Canvas_1pp.png" >
+[3] [4]
+File: chambre_vs_colli.png Graphic file (type QTm)
+ <use  "chambre_vs_colli.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Calibrationp.png Graphic file (type QTm)
-<use  "Calibrationp.png" > [3]
+File: chambre_vs_colli2.png Graphic file (type QTm)
+<use  "chambre_vs_colli2.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Calibration.png Graphic file (type QTm)
-<use  "Calibration.png" > [4]
+[5] [6] [7] [8] [9] (./Rapport_2.aux)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: There were multiply-defined labels.
 
-[5] [6] [7] [8]
-Overfull \hbox (6.92467pt too wide) in paragraph at lines 243--260
- [] 
- []
-
-[9] (./Rapport.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 3649 strings out of 493638
- 47181 string characters out of 6146796
- 114797 words of memory out of 5000000
- 7008 multiletter control sequences out of 15000+600000
- 12276 words of font info for 33 fonts, out of 8000000 for 9000
+ 3688 strings out of 493638
+ 47983 string characters out of 6146796
+ 128287 words of memory out of 5000000
+ 7045 multiletter control sequences out of 15000+600000
+ 11492 words of font info for 32 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 28i,7n,43p,741b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,7n,43p,1077b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Rapport.pdf (9 pages).
+Output written on Rapport_2.pdf (9 pages).
